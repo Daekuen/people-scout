@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "function": "ScrapeComplete",
+    "jobId": "job-002",
+    "url": "https://x.com/testuser",
+    "scrapeType": "TWITTER_POST",
+    "result": {
+      "post": {},
+      "reply": [
+        {
+          "content": "Just published our latest research on LLM agents. Excited about the results!",
+          "image": "https://example.com/profile.jpg",
+          "likesCount": 150,
+          "postedAt": "2026-02-10T09:00:00.000Z",
+          "repliesCount": 12,
+          "retweetsCount": 45,
+          "tweetId": "tweet-001",
+          "tweetUrl": "/testuser/status/tweet-001",
+          "username": "testuser",
+          "video": []
+        },
+        {
+          "content": "Great conversation at the AI meetup today.",
+          "image": "https://example.com/profile.jpg",
+          "likesCount": 89,
+          "postedAt": "2026-02-09T14:30:00.000Z",
+          "repliesCount": 8,
+          "retweetsCount": 20,
+          "tweetId": "tweet-002",
+          "tweetUrl": "/testuser/status/tweet-002",
+          "username": "testuser",
+          "video": []
+        },
+        {
+          "content": "Reading 'Thinking Fast and Slow' again.",
+          "image": "https://example.com/profile.jpg",
+          "likesCount": 200,
+          "postedAt": "2026-02-08T20:15:00.000Z",
+          "repliesCount": 15,
+          "retweetsCount": 30,
+          "tweetId": "tweet-003",
+          "tweetUrl": "/testuser/status/tweet-003",
+          "username": "testuser",
+          "video": []
+        }
+      ]
+    },
+    "state": "completed",
+    "status": "OK"
+  }
+}
