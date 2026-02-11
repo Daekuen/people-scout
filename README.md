@@ -47,7 +47,7 @@ python -m people_scout @cz_binance -o console
 | `--post-count` | `-p` | 100 | Number of posts to collect |
 | `--output-dir` | | `.` | Directory for file output |
 
-## SDK Usage
+## Python Usage
 
 ```python
 from people_scout import PeopleScout
