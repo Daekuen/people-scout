@@ -14,8 +14,10 @@ class ScoutSettings(BaseSettings):
 
     # Required
     selanet_api_key: str
-    selanet_base_url: str
     gemini_api_key: str
+
+    # Selanet API (fixed)
+    selanet_base_url: str = "https://api.selanetwork.io"
 
     # Optional
     scout_gemini_model: str = "gemini-2.5-flash"

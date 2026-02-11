@@ -20,7 +20,6 @@ cp .env.example .env
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `SELANET_API_KEY` | Yes | Selanet API key |
-| `SELANET_BASE_URL` | Yes | Selanet API base URL |
 | `GEMINI_API_KEY` | Yes | Google Gemini API key |
 | `SCOUT_GEMINI_MODEL` | No | Gemini model (default: `gemini-2.5-flash`) |
 | `SCOUT_DEFAULT_LANG` | No | Default report language (default: `ko`) |
@@ -59,7 +58,6 @@ scout = PeopleScout()
 scout = PeopleScout(
     selanet_api_key="...",
     gemini_api_key="...",
-    selanet_base_url="https://...",
 )
 
 # Run analysis
